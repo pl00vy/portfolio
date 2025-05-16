@@ -7,7 +7,7 @@
      = [
         {name:"about", update: false},
         {name: "works", update: true},
-        {name: "comms", update: false},
+        {name: "commissions", update: false},
         {name: "articles", update: true}
     ];
 </script>
@@ -16,8 +16,19 @@
 </head>
 
 
-<div class="relative w-screen h-screen flex justify-between items-center p-6 bg-gray-700">
-    <h1 class="tracking-widest font-urbanist text-white text-8xl font-extralight">Your Name</h1>
+<div class="relative w-screen h-screen flex justify-between items-center p-12 bg-[url(/main_bg.jpg)] bg-cover">
+    <h1 class="
+        tracking-widest
+        font-urbanist
+        text-white
+        text-8xl
+        font-extralight
+        hover:-translate-y-4
+        transition-all
+        hover:duration-600
+        duration-300
+
+    ">ploovy</h1>
     <div class="flex-col justify-center items-end">
         {#each sections as section}
             <div class="height-2 text-right my-2 mx-2">

@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Header from '$lib/components/Header.svelte'
     import ArticleTile from '$lib/components/ArticleTile.svelte';
     import type { article } from '$lib/types';
     let article_preview:article = {
@@ -10,7 +9,6 @@
     }
 </script>
 
-<Header />
 
 <div class="flex-col mx-auto">
     <ArticleTile post={article_preview}></ArticleTile>
